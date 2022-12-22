@@ -140,7 +140,10 @@ public class ReportService extends ServiceBase{
 
     }
 
-
+    /**
+     * 日報データを更新する
+     * @param rv 日報データ
+     */
     private void updateInternal(ReportView rv) {
 
        em.getTransaction().begin();
